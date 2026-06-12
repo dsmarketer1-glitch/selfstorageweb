@@ -1,0 +1,120 @@
+.size-selector {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.size-tabs {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.75rem;
+}
+.size-tab {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 1.25rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+.size-tab svg { color: var(--text-light); }
+.size-tab strong { color: var(--secondary); font-size: 1.05rem; }
+.size-tab span { font-size: 0.8rem; }
+.size-tab:hover { border-color: var(--primary); }
+.size-tab.active {
+  border-color: var(--primary);
+  background: #fffbeb;
+  box-shadow: var(--shadow-sm);
+}
+.size-tab.active svg { color: var(--primary); }
+.popular-flag {
+  position: absolute;
+  top: -10px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  font-style: normal;
+  padding: 0.15rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.size-detail {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 2rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.size-visual-box {
+  background: linear-gradient(135deg, #1c2331, #0f172a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+.size-box-graphic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--primary);
+}
+.size-box-graphic span { color: var(--white); font-size: 1.5rem; font-weight: 800; }
+
+.size-detail-info { padding: 2.5rem; }
+.size-detail-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.size-detail-price { text-align: right; }
+.size-detail-price span { font-size: 0.8rem; color: var(--text-muted); display: block; }
+.size-detail-price strong { font-size: 1.75rem; color: var(--secondary); }
+.size-detail-price small { font-size: 0.9rem; color: var(--text-muted); font-weight: 400; }
+.size-fits { color: var(--text-main); }
+.size-holds { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+
+/* Table */
+.size-table-wrap { overflow-x: auto; border-radius: var(--radius-lg); border: 1px solid var(--border); }
+.size-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--white);
+  min-width: 720px;
+}
+.size-table th, .size-table td {
+  text-align: left;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+.size-table th {
+  background: var(--surface);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+.size-table tbody tr:hover { background: #fffbeb; }
+.size-table-price { font-weight: 700; color: var(--secondary); }
+
+@media (max-width: 960px) {
+  .size-tabs { grid-template-columns: repeat(3, 1fr); }
+  .size-detail { grid-template-columns: 1fr; }
+}
+@media (max-width: 540px) {
+  .size-tabs { grid-template-columns: repeat(2, 1fr); }
+  .size-holds { grid-template-columns: 1fr; }
+}

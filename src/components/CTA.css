@@ -1,0 +1,44 @@
+.cta-band {
+  background: linear-gradient(120deg, var(--secondary) 0%, #111827 100%);
+  position: relative;
+  overflow: hidden;
+}
+.cta-band::before {
+  content: '';
+  position: absolute;
+  top: -40%;
+  right: -10%;
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle, rgb(245 158 11 / 0.25), transparent 60%);
+}
+
+.cta-inner {
+  position: relative;
+  z-index: 2;
+  padding: 4rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.cta-inner h2 {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+.cta-inner p {
+  color: #cbd5e1;
+  max-width: 520px;
+}
+
+.cta-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .cta-inner { flex-direction: column; align-items: flex-start; text-align: left; }
+}
