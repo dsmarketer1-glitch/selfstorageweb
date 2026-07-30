@@ -6,7 +6,16 @@
       "Bash(powershell -Command \"Get-CimInstance Win32_Process -Filter \\\\\"name='node.exe'\\\\\" | Select-Object ProcessId, CommandLine | Format-Table -Wrap\")",
       "mcp__Claude_Preview__preview_start",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m 'first commit *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(git -c credential.interactive=false push -u origin main)",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "PowerShell(git config --system credential.helper; git config --global credential.helper; \\(Get-Command git-credential-manager -ErrorAction SilentlyContinue\\).Source; \\(Get-Command git-credential-manager-core -ErrorAction SilentlyContinue\\).Source; \"git-version:\"; git --version)",
+      "PowerShell(git push -u origin main)",
+      "WebFetch(domain:graylinestorage.com)"
     ]
   }
 }

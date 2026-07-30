@@ -70,7 +70,7 @@ export default function Security() {
             <span className="eyebrow">Smart Security</span>
             <h2 style={{ color: 'var(--white)' }}>Next-Gen Security at Your Fingertips</h2>
             <p style={{ color: '#cbd5e1', margin: '1rem 0 1.5rem' }}>
-              Our SecureSpace app integrates the gap between physical security and digital convenience.
+              Our Self Storage 214 app integrates the gap between physical security and digital convenience.
               Manage your unit from anywhere in the world with encrypted, tamper-proof access controls.
             </p>
             <ul className="checklist">
@@ -167,7 +167,7 @@ export default function Security() {
       <Faq
         title="Security Frequently Asked Questions"
         items={[
-          { q: 'What are the gate hours and how is access controlled?', a: 'Gate hours vary by facility (typically 6 AM–10 PM, with some offering 24/7 app access). Entry requires your personal access code or the SecureSpace app, and every entry/exit is logged.' },
+          { q: 'What are the gate hours and how is access controlled?', a: 'Our Crowley facility offers 24-hour gated access. Entry requires your personal access code or the Self Storage 214 app, and every entry and exit is logged.' },
           { q: 'Are individual units alarmed?', a: 'Yes. Each unit is fitted with its own electronic alarm that activates the moment it is opened without your authorized code.' },
           { q: 'What happens if my unit is triggered or tampered with?', a: 'Our monitoring system immediately alerts on-site staff and our security team, who review camera footage and respond right away. You receive a real-time notification through the app.' },
           { q: 'Is insurance available for my stored items?', a: 'Yes. We offer affordable protection plans at checkout, and you can also use your own homeowner\'s or renter\'s policy if it covers off-site storage.' },

@@ -1,6 +1,8 @@
-# SecureSpace — Self-Storage Website
+# Self Storage 214 — Crowley, TX Website
 
-A complete, fully-functional marketing & booking website for a self-storage business, built with **React 19**, **React Router 7**, and **Vite**. No backend required — all data is mocked client-side so the site runs entirely in the browser.
+A complete, fully-functional marketing & booking website for **Self Storage 214**, a self-storage facility at **1520 Bean Dr, Crowley, TX 76036** (phone **(682) 200-3353**). Built with **React 19**, **React Router 7**, and **Vite**. No backend required — all data is mocked client-side so the site runs entirely in the browser.
+
+The brand logo lives at `public/logo.png` (served at `/logo.png`) and appears in the header, footer, and browser tab icon.
 
 ## Getting started
 

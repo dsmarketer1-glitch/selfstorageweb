@@ -32,10 +32,10 @@ export default function Account() {
             <div className="dash-card dash-unit">
               <div className="dash-card-head"><h3><Box size={20} /> Your Active Unit</h3><span className="badge badge-success">Active</span></div>
               <div className="dash-unit-body">
-                <div><span className="text-muted">Facility</span><strong>SecureSpace Dallas North</strong></div>
-                <div><span className="text-muted">Unit</span><strong>#B-214 · 10×10 Climate</strong></div>
-                <div><span className="text-muted">Monthly Rate</span><strong>$145.00</strong></div>
-                <div><span className="text-muted">Next Payment</span><strong>Jul 1, 2026</strong></div>
+                <div><span className="text-muted">Facility</span><strong>Self Storage 214 — Crowley</strong></div>
+                <div><span className="text-muted">Unit</span><strong>#B-214 · 10×10 Drive-Up</strong></div>
+                <div><span className="text-muted">Monthly Rate</span><strong>$115.00</strong></div>
+                <div><span className="text-muted">Next Payment</span><strong>Aug 1, 2026</strong></div>
               </div>
               <button className="btn-primary"><KeyRound size={16} /> Open Gate</button>
             </div>
@@ -44,7 +44,7 @@ export default function Account() {
             <div className="dash-card">
               <h3><CreditCard size={20} /> Billing</h3>
               <p className="dash-balance">$0.00 <span className="text-muted">balance due</span></p>
-              <p className="text-muted" style={{ marginBottom: '1rem' }}>Auto-pay is enabled. Next charge $145.00 on Jul 1.</p>
+              <p className="text-muted" style={{ marginBottom: '1rem' }}>Auto-pay is enabled. Next charge $115.00 on Aug 1.</p>
               <button className="btn-secondary">Manage Payment</button>
             </div>
 
@@ -70,7 +70,7 @@ export default function Account() {
         <div className="auth-card">
           <div className="auth-icon"><User size={28} /></div>
           <h1>{mode === 'login' ? 'Sign In to Your Account' : 'Create Your Account'}</h1>
-          <p className="text-muted">{mode === 'login' ? 'Access your units, billing, and gate codes.' : 'Join SecureSpace to rent and manage storage online.'}</p>
+          <p className="text-muted">{mode === 'login' ? 'Access your units, billing, and gate codes.' : 'Join Self Storage 214 to rent and manage storage online.'}</p>
 
           <form onSubmit={handleSubmit} className="auth-form">
             {mode === 'signup' && (

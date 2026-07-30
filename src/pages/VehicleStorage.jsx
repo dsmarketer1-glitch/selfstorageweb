@@ -86,7 +86,7 @@ export default function VehicleStorage() {
       />
 
       <CTA
-        title="Park it with SecureSpace"
+        title="Park it with Self Storage 214"
         text="Reserve a vehicle, RV, or boat space near you in minutes."
         primaryLabel="Find Vehicle Storage"
         secondaryLabel="Talk to an Expert"

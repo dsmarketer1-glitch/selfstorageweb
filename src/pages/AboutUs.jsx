@@ -17,7 +17,7 @@ export default function AboutUs() {
         <div className="container">
           <span className="badge badge-primary">Our Story</span>
           <h1>More Than Just Space — It's Peace of Mind.</h1>
-          <p>SecureSpace is dedicated to providing premium storage solutions that prioritize your valuables' safety and your convenience.</p>
+          <p>Self Storage 214 is a locally owned facility in Crowley, TX, dedicated to providing clean, secure, affordable storage that prioritizes your valuables' safety and your convenience.</p>
           <div className="subhero-actions">
             <Link to="/locations" className="btn-primary">Find Your Unit</Link>
             <Link to="/contact" className="btn-outline">Get in Touch</Link>
@@ -29,10 +29,10 @@ export default function AboutUs() {
       <section className="section">
         <div className="container split">
           <div>
-            <span className="eyebrow">Since 2012</span>
-            <h2>Protecting What Matters for Over a Decade</h2>
-            <p>Our journey began in Dallas, Texas, with a single tech-enabled facility and a vision to redefine the self-storage industry. We noticed that while people needed space, they often lacked the security and professional service they deserved.</p>
-            <p>Over the last decade we've grown into a nationwide leader in high-security storage. Today, SecureSpace operates dozens of facilities, each built on the same core principle: combining cutting-edge technology with human-centric hospitality.</p>
+            <span className="eyebrow">Proudly Serving Crowley</span>
+            <h2>Your Neighborhood Storage in Crowley, TX</h2>
+            <p>Self Storage 214 recently took over the storage facility at 1520 Bean Dr, bringing fresh management, upgraded security, and honest, affordable rates to the Crowley community.</p>
+            <p>Whether you're moving, decluttering, running a business, or need a safe spot for your boat or RV, we combine modern technology — online rental, 24-hour gated access, and digital gate codes — with genuine hometown hospitality. More space, made simple.</p>
           </div>
           <div className="media-block" style={{ background: 'linear-gradient(135deg, #f59e0b, #1c2331)' }}>
             <Building2 size={110} strokeWidth={1} />
@@ -44,10 +44,10 @@ export default function AboutUs() {
       <section className="section-sm bg-light">
         <div className="container">
           <div className="grid-4 text-center">
-            <div><div style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary)' }}>2012</div><div className="text-muted">Founded in Dallas</div></div>
-            <div><div style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary)' }}>150+</div><div className="text-muted">Facilities Nationwide</div></div>
-            <div><div style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary)' }}>500K+</div><div className="text-muted">Happy Customers</div></div>
-            <div><div style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary)' }}>4.9★</div><div className="text-muted">Average Rating</div></div>
+            <div><div style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary)' }}>24/7</div><div className="text-muted">Gated Access</div></div>
+            <div><div style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary)' }}>5</div><div className="text-muted">Unit Sizes</div></div>
+            <div><div style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary)' }}>Local</div><div className="text-muted">Owned &amp; Operated</div></div>
+            <div><div style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary)' }}>4.9★</div><div className="text-muted">Customer Rating</div></div>
           </div>
         </div>
       </section>
@@ -107,7 +107,7 @@ export default function AboutUs() {
       <section className="section">
         <div className="container">
           <div className="section-title">
-            <span className="eyebrow">The People Behind SecureSpace</span>
+            <span className="eyebrow">The People Behind Self Storage 214</span>
             <h2>Meet Our Leadership Team</h2>
           </div>
           <div className="grid-4">
@@ -156,7 +156,7 @@ export default function AboutUs() {
 
       <CTA
         title="Ready to start storing?"
-        text="Join 500,000+ customers who trust SecureSpace with what matters most."
+        text="Join your Crowley neighbors who trust Self Storage 214 with what matters most."
         primaryLabel="Find Your Unit"
         secondaryLabel="Contact Us"
         secondaryTo="/contact"

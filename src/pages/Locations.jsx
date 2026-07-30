@@ -28,9 +28,9 @@ export default function Locations() {
       {/* Hero with search */}
       <section className="locations-hero bg-secondary">
         <div className="container text-center">
-          <h1 style={{ color: 'var(--white)' }}>Find a SecureSpace Near You</h1>
+          <h1 style={{ color: 'var(--white)' }}>Storage Units in Crowley, TX</h1>
           <p style={{ color: '#cbd5e1', maxWidth: 640, margin: '1rem auto 2rem' }}>
-            Premium storage solutions with state-of-the-art security, 24/7 access, and climate control across Texas.
+            Self Storage 214 offers gated, 24-hour access units with boat &amp; RV parking — conveniently located on Bean Dr in Crowley.
           </p>
           <form className="loc-search" onSubmit={(e) => e.preventDefault()}>
             <div className="loc-search-field">
@@ -54,8 +54,8 @@ export default function Locations() {
             <div className="map-visual">
               <MapPin size={56} />
               <div>
-                <strong>Texas Region</strong>
-                <p>{locations.length} facilities found with 100+ units currently available for immediate move-in.</p>
+                <strong>Crowley, TX</strong>
+                <p>1520 Bean Dr — units of every size currently available for immediate, same-day move-in.</p>
                 <span className="badge badge-success"><CheckCircle size={14} /> Secure Access Guaranteed</span>
               </div>
             </div>
@@ -132,9 +132,9 @@ export default function Locations() {
       {/* Trust strip */}
       <section className="section-sm">
         <div className="container loc-trust">
-          <div><ShieldCheck size={28} color="var(--primary)" /><div><strong>1,000+ Units</strong><span>Locations Nationwide</span></div></div>
-          <div><Star size={28} color="var(--primary)" /><div><strong>Top Rated</strong><span>Award-Winning Service</span></div></div>
-          <div><Award size={28} color="var(--primary)" /><div><strong>ISO 27001</strong><span>Secure Infrastructure</span></div></div>
+          <div><ShieldCheck size={28} color="var(--primary)" /><div><strong>24-Hour Access</strong><span>Gated &amp; Secure</span></div></div>
+          <div><Star size={28} color="var(--primary)" /><div><strong>Top Rated</strong><span>Trusted Locally</span></div></div>
+          <div><Award size={28} color="var(--primary)" /><div><strong>Boat &amp; RV</strong><span>Extra-Large Spaces</span></div></div>
         </div>
       </section>
 
@@ -149,13 +149,13 @@ export default function Locations() {
             <div className="special-card">
               <span className="badge badge-primary">Most Popular</span>
               <h3>1st Month Free</h3>
-              <p>Select units in Dallas &amp; Houston. Limited time offer for new renters.</p>
+              <p>On select units at our Crowley facility. Limited time offer for new renters.</p>
               <Link to="/locations" className="btn-primary">Claim Offer</Link>
             </div>
             <div className="special-card">
               <span className="badge badge-success">Best Value</span>
-              <h3>Up to 40% Off</h3>
-              <p>New customers at our Austin facilities. Save big on long-term storage.</p>
+              <h3>Up to 20% Off</h3>
+              <p>New customers on 10×10 units. Save big on long-term storage in Crowley.</p>
               <Link to="/locations" className="btn-primary">Claim Offer</Link>
             </div>
           </div>
@@ -179,7 +179,7 @@ export default function Locations() {
             <div className="feature-card">
               <div className="feature-icon blue"><Star size={26} /></div>
               <h3>Climate Control Benefits</h3>
-              <p>Protect sensitive items from Texas heat and humidity with our specialized units.</p>
+              <p>Protect sensitive items from North Texas heat and humidity with our specialized units.</p>
               <Link to="/climate-controlled" className="btn-ghost">Read More <ArrowRight size={16} /></Link>
             </div>
             <div className="feature-card">
@@ -194,10 +194,10 @@ export default function Locations() {
 
       <Faq
         items={[
-          { q: 'How do I find the closest facility to me?', a: 'Use the interactive map or enter your zip code in the search bar above to see real-time distance from your location, plus live pricing and availability.' },
-          { q: 'Can I rent a unit at any location online?', a: 'Yes. Every SecureSpace facility offers 100% online rental and digital gate access. Pick a unit, e-sign your lease, and pay in minutes.' },
-          { q: 'Do all locations feature climate-controlled units?', a: 'Most of our facilities feature climate-controlled units. Check the specific location page for availability in your area.' },
-          { q: 'What are typical access hours?', a: 'Most facilities offer access from 6 AM to 10 PM daily, with several offering 24-hour app-based access. Hours are listed on each facility page.' },
+          { q: 'Where are you located?', a: 'Self Storage 214 is located at 1520 Bean Dr, Crowley, TX 76036 — just off Chisholm Trail Parkway, minutes from downtown Crowley and convenient to Burleson and south Fort Worth.' },
+          { q: 'Can I rent a unit online?', a: 'Yes. Self Storage 214 offers 100% online rental and digital gate access. Pick a unit, e-sign your lease, and pay in minutes.' },
+          { q: 'Do you offer boat and RV storage?', a: 'Yes. Our extra-large 10×20 and 20×20 spaces are perfect for boats, RVs, trailers, and vehicles, with easy drive-up access through the gated entry.' },
+          { q: 'What are the access hours?', a: 'Our Crowley facility offers 24-hour gated access so you can reach your unit whenever it is convenient. The office is open 9:00 AM – 5:00 PM daily.' },
         ]}
       />
 

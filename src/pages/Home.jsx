@@ -68,7 +68,7 @@ export default function Home() {
           <div className="trust-item">
             <Award size={32} color="var(--primary)" />
             <div>
-              <div>SecureSpace Certified</div>
+              <div>Self Storage 214 Certified</div>
               <div className="trust-sub">24/7 MONITORED ACCESS</div>
             </div>
           </div>
@@ -87,7 +87,7 @@ export default function Home() {
             <div className="step-card">
               <div className="step-icon"><MapPin size={28} /></div>
               <h3>1. Find a Location</h3>
-              <p>Enter your location to see all available storage facilities near you with real-time inventory.</p>
+              <p>Browse our Crowley facility to see every available unit size with real-time inventory and live pricing.</p>
             </div>
             <div className="step-card">
               <div className="step-icon"><Smartphone size={28} /></div>
@@ -146,10 +146,10 @@ export default function Home() {
       {/* Stats strip */}
       <section className="stats-strip bg-secondary">
         <div className="container stats-grid">
-          <div className="stat"><div className="stat-num">150+</div><div className="stat-label">Locations Nationwide</div></div>
-          <div className="stat"><div className="stat-num">1M+</div><div className="stat-label">Units Rented</div></div>
-          <div className="stat"><div className="stat-num">4.9★</div><div className="stat-label">Average Rating</div></div>
-          <div className="stat"><div className="stat-num">24/7</div><div className="stat-label">Monitored Security</div></div>
+          <div className="stat"><div className="stat-num">24/7</div><div className="stat-label">Gated Gate Access</div></div>
+          <div className="stat"><div className="stat-num">5</div><div className="stat-label">Unit Sizes Available</div></div>
+          <div className="stat"><div className="stat-num">4.9★</div><div className="stat-label">Customer Rating</div></div>
+          <div className="stat"><div className="stat-num">$45</div><div className="stat-label">Starting Per Month</div></div>
         </div>
       </section>
 
@@ -164,17 +164,17 @@ export default function Home() {
             <div className="testimonial-card">
               <div className="testimonial-stars">★★★★★</div>
               <p className="testimonial-text">"The online rental process was seamless. I had my gate code within 5 minutes and was able to move in the same afternoon. High-tech and very clean!"</p>
-              <p className="testimonial-author">— Sarah J., Houston, TX</p>
+              <p className="testimonial-author">— Sarah J., Crowley, TX</p>
             </div>
             <div className="testimonial-card">
               <div className="testimonial-stars">★★★★★</div>
               <p className="testimonial-text">"Incredible customer service. The staff helped me determine exactly what size I needed, saving me money in the long run. Highly recommend!"</p>
-              <p className="testimonial-author">— Marcus B., Phoenix, AZ</p>
+              <p className="testimonial-author">— Marcus B., Burleson, TX</p>
             </div>
             <div className="testimonial-card">
               <div className="testimonial-stars">★★★★★</div>
               <p className="testimonial-text">"Cleanest facility I've ever used. The temperature control is spot on, and I feel totally safe accessing my unit even late at night."</p>
-              <p className="testimonial-author">— Elena R., Seattle, WA</p>
+              <p className="testimonial-author">— Elena R., Fort Worth, TX</p>
             </div>
           </div>
         </div>
@@ -211,7 +211,7 @@ export default function Home() {
       <section className="app-section bg-secondary">
         <div className="container app-grid">
           <div className="app-content">
-            <span className="eyebrow">SecureSpace App</span>
+            <span className="eyebrow">Self Storage 214 App</span>
             <h2 style={{ color: 'var(--white)' }}>Manage your space with your phone</h2>
             <p>Open the gate, pay your bill, manage notifications, and access your account 24/7 — all from the palm of your hand.</p>
             <ul className="app-features">
@@ -238,7 +238,7 @@ export default function Home() {
           <Gift size={48} color="var(--primary)" />
           <div className="referral-text">
             <h2>Share the Space, Earn $50</h2>
-            <p>Refer a friend to SecureSpace. When they rent their first unit, you both get a $50 account credit.</p>
+            <p>Refer a friend to Self Storage 214. When they rent their first unit, you both get a $50 account credit.</p>
           </div>
           <Link to="/account" className="btn-primary btn-lg">Refer a Friend</Link>
         </div>
@@ -269,16 +269,16 @@ export default function Home() {
             <span className="eyebrow">Our People</span>
             <h2>More Than Just a Storage Space</h2>
             <p className="text-muted" style={{ margin: '1rem 0 1.5rem' }}>
-              Behind every SecureSpace facility is a team of professional, on-site managers dedicated
+              Behind Self Storage 214 is a team of professional, on-site managers dedicated
               to making your storage experience effortless. We combine cutting-edge technology with
-              genuine, human-centric hospitality.
+              genuine, hometown hospitality right here in Crowley.
             </p>
             <ul className="more-list">
               <li><CheckCircle size={18} color="var(--primary)" /> Friendly, professional on-site staff</li>
               <li><CheckCircle size={18} color="var(--primary)" /> Award-winning customer support</li>
               <li><CheckCircle size={18} color="var(--primary)" /> Spotless, well-lit facilities</li>
             </ul>
-            <Link to="/about" className="btn-secondary" style={{ marginTop: '1.5rem' }}>About SecureSpace</Link>
+            <Link to="/about" className="btn-secondary" style={{ marginTop: '1.5rem' }}>About Self Storage 214</Link>
           </div>
         </div>
       </section>
@@ -286,9 +286,9 @@ export default function Home() {
       {/* FAQ */}
       <Faq
         items={[
-          { q: 'How do I rent the cheapest facility to me?', a: 'Use our interactive map or enter your zip code in the search bar above to see real-time distance and pricing from your nearest facilities. Filter and sort to find the best value.' },
-          { q: 'Can I rent a unit at any location online?', a: 'Yes! All SecureSpace facilities offer 100% online rental and digital gate access for your convenience. Just pick a unit, sign, and pay.' },
-          { q: 'Do all locations offer climate control?', a: 'Most of our facilities feature climate-controlled units. Check the specific location page for availability in your area.' },
+          { q: 'Where is Self Storage 214 located?', a: 'We are at 1520 Bean Dr, Crowley, TX 76036 — just off Chisholm Trail Parkway, convenient to Crowley, Burleson, and south Fort Worth.' },
+          { q: 'Can I rent a unit online?', a: 'Yes! Self Storage 214 offers 100% online rental and digital gate access for your convenience. Just pick a unit, sign, and pay.' },
+          { q: 'Do you offer boat and RV storage?', a: 'Yes. Our extra-large 10×20 and 20×20 spaces are ideal for boats, RVs, trailers, and vehicles, with drive-up access through the gated entry.' },
           { q: 'Is there a long-term contract or deposit?', a: 'No. All rentals are month-to-month with no deposit and no long-term commitment. Cancel anytime with proper notice.' },
         ]}
       />

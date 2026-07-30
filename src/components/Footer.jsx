@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Boxes, Phone, Mail, MapPin, Globe, AtSign, MessageCircle, Share2, ArrowRight } from 'lucide-react';
+import { Phone, Mail, MapPin, Globe, AtSign, MessageCircle, Share2, ArrowRight } from 'lucide-react';
 import './Footer.css';
 
 export default function Footer() {
@@ -24,13 +24,13 @@ export default function Footer() {
       <div className="container grid footer-grid">
         <div className="footer-brand">
           <Link to="/" className="footer-logo">
-            <span className="brand-mark"><Boxes size={20} /></span> SecureSpace
+            <img src="/logo.png" alt="Self Storage 214" />
           </Link>
-          <p>Premium self-storage built for the modern world. Safe, clean, climate-controlled, and always secure.</p>
+          <p>Locally owned self-storage in Crowley, TX. Gated, 24-hour access units with boat &amp; RV parking. More space, made simple.</p>
           <div className="footer-contact">
-            <a href="tel:18001234567"><Phone size={15} /> (800) 123-4567</a>
-            <a href="mailto:hello@securespace.com"><Mail size={15} /> hello@securespace.com</a>
-            <span><MapPin size={15} /> Serving TX · Nationwide</span>
+            <a href="tel:16822003353"><Phone size={15} /> (682) 200-3353</a>
+            <a href="mailto:info@selfstorage214.com"><Mail size={15} /> info@selfstorage214.com</a>
+            <span><MapPin size={15} /> 1520 Bean Dr, Crowley, TX 76036</span>
           </div>
           <div className="footer-social">
             <a href="#" aria-label="Facebook"><Globe size={18} /></a>
@@ -74,7 +74,7 @@ export default function Footer() {
       </div>
 
       <div className="container footer-bottom">
-        <p>&copy; {new Date().getFullYear()} SecureSpace Self-Storage. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Self Storage 214 LLC. All rights reserved.</p>
         <div className="footer-legal">
           <Link to="/contact">Privacy Policy</Link>
           <Link to="/contact">Terms of Service</Link>

@@ -32,23 +32,23 @@ export default function Contact() {
             </p>
             <div className="contact-method">
               <div className="feature-icon soft"><Phone size={22} /></div>
-              <div><strong>Call Us</strong><a href="tel:18001234567">(800) 123-4567</a></div>
+              <div><strong>Call Us</strong><a href="tel:16822003353">(682) 200-3353</a></div>
             </div>
             <div className="contact-method">
               <div className="feature-icon soft"><Mail size={22} /></div>
-              <div><strong>Email Us</strong><a href="mailto:hello@securespace.com">hello@securespace.com</a></div>
+              <div><strong>Email Us</strong><a href="mailto:info@selfstorage214.com">info@selfstorage214.com</a></div>
             </div>
             <div className="contact-method">
               <div className="feature-icon soft"><MessageSquare size={22} /></div>
-              <div><strong>Live Chat</strong><span className="text-muted">Available 8 AM – 8 PM CT</span></div>
+              <div><strong>Live Chat</strong><span className="text-muted">Available 9 AM – 5 PM CT</span></div>
             </div>
             <div className="contact-method">
               <div className="feature-icon soft"><MapPin size={22} /></div>
-              <div><strong>Headquarters</strong><span className="text-muted">1200 Storage Way, Dallas, TX 75201</span></div>
+              <div><strong>Visit Us</strong><span className="text-muted">1520 Bean Dr, Crowley, TX 76036</span></div>
             </div>
             <div className="contact-method">
               <div className="feature-icon soft"><Clock size={22} /></div>
-              <div><strong>Support Hours</strong><span className="text-muted">Mon–Sat 8 AM–8 PM · Sun 10 AM–6 PM</span></div>
+              <div><strong>Office Hours</strong><span className="text-muted">Mon–Sun 9 AM – 5 PM · 24-Hour Gate Access</span></div>
             </div>
           </div>
 

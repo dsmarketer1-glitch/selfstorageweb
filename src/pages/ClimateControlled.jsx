@@ -8,7 +8,7 @@ import Faq from '../components/Faq';
 import CTA from '../components/CTA';
 
 export default function ClimateControlled() {
-  const climateLocations = locations.filter((l) => l.features.includes('Climate Controlled')).slice(0, 3);
+  const climateLocations = locations.slice(0, 3);
 
   return (
     <div className="page">

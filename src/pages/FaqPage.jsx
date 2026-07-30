@@ -29,8 +29,8 @@ export default function FaqPage() {
           title="Access & Hours"
           subtitle="Getting to your belongings when you need them."
           items={[
-            { q: 'What are the access hours?', a: 'Most facilities offer access from 6 AM to 10 PM daily, with several offering 24/7 app-based gate access. Exact hours are listed on each facility page.' },
-            { q: 'How does gate access work?', a: 'You\'ll get a personalized access code, and at most locations you can open the gate directly from the SecureSpace mobile app.' },
+            { q: 'What are the access hours?', a: 'Our Crowley facility offers 24-hour gated access, so you can reach your unit whenever it is convenient. The rental office is open 9 AM – 5 PM daily.' },
+            { q: 'How does gate access work?', a: 'You\'ll get a personalized access code, and you can also open the gate directly from the Self Storage 214 mobile app. The Crowley gate is accessible 24 hours a day.' },
             { q: 'Can I share access with family or employees?', a: 'Yes. You can add authorized users to your account so others can access the unit on your behalf.' },
           ]}
         />
@@ -41,9 +41,9 @@ export default function FaqPage() {
         subtitle="Simple, transparent pricing."
         items={[
           { q: 'How does billing work?', a: 'Rent is billed monthly. You can enroll in auto-pay for hands-free payments and go fully paperless through your online account.' },
-          { q: 'Are there any hidden fees?', a: 'No. We believe in transparent pricing. A one-time admin fee may apply at some locations and is always shown clearly before you check out.' },
+          { q: 'Are there any hidden fees?', a: 'No. We believe in transparent pricing. A one-time admin fee may apply and is always shown clearly before you check out.' },
           { q: 'What payment methods do you accept?', a: 'All major credit and debit cards, plus ACH bank transfers through your online account.' },
-          { q: 'Can I get a refund if I move out early?', a: 'Refund policies vary by location and are detailed in your rental agreement. Many facilities prorate or offer credits — ask your on-site manager.' },
+          { q: 'Can I get a refund if I move out early?', a: 'Our refund policy is detailed in your rental agreement, and we prorate or offer credits where applicable — just ask our on-site manager.' },
         ]}
       />
 

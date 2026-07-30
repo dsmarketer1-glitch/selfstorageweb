@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { Phone, User, Menu, X, ChevronDown, Boxes } from 'lucide-react';
+import { Phone, User, Menu, X, ChevronDown } from 'lucide-react';
 import './Header.css';
 
 const storageMenu = [
@@ -27,8 +27,7 @@ export default function Header() {
 
       <div className="container header-container">
         <Link to="/" className="brand" onClick={close}>
-          <span className="brand-mark"><Boxes size={22} /></span>
-          SecureSpace
+          <img src="/logo.png" alt="Self Storage 214" className="brand-logo" />
         </Link>
 
         <nav className="nav-links">
@@ -49,8 +48,8 @@ export default function Header() {
         </nav>
 
         <div className="header-actions">
-          <a href="tel:18001234567" className="phone-link">
-            <Phone size={16} /> (800) 123-4567
+          <a href="tel:16822003353" className="phone-link">
+            <Phone size={16} /> (682) 200-3353
           </a>
           <Link to="/account" className="btn-secondary header-account">
             <User size={16} /> My Account
@@ -76,7 +75,7 @@ export default function Header() {
           <NavLink to="/about" onClick={close}>About</NavLink>
           <NavLink to="/contact" onClick={close}>Contact</NavLink>
           <NavLink to="/account" onClick={close} className="mobile-account">My Account</NavLink>
-          <a href="tel:18001234567" className="mobile-phone"><Phone size={16} /> (800) 123-4567</a>
+          <a href="tel:16822003353" className="mobile-phone"><Phone size={16} /> (682) 200-3353</a>
         </div>
       )}
     </header>
