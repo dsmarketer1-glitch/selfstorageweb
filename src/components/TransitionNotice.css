@@ -1,0 +1,112 @@
+.notice-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  overflow-y: auto;
+  background: rgba(15, 23, 42, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  animation: notice-fade 0.4s ease both;
+}
+
+@keyframes notice-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.notice-card {
+  width: 100%;
+  max-width: 560px;
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 25px 60px -12px rgba(0, 0, 0, 0.45);
+  border-top: 6px solid var(--primary);
+  padding: 3rem 2.5rem;
+  text-align: center;
+  animation: notice-pop 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes notice-pop {
+  from { opacity: 0; transform: translateY(18px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.notice-logo {
+  height: 54px;
+  width: auto;
+  margin: 0 auto 1.75rem;
+}
+
+.notice-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #fef3c7;
+  color: var(--primary-dark);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.35rem 0.85rem;
+  border-radius: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.notice-card h1 {
+  font-size: 2rem;
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+}
+
+.notice-lead {
+  font-size: 1.1rem;
+  color: var(--text-main);
+  margin-bottom: 1rem;
+}
+
+.notice-body {
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.notice-call {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: var(--primary);
+  color: var(--white);
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  padding: 1rem 2rem;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 20px rgba(245, 158, 11, 0.35);
+  transition: background 0.2s, transform 0.15s;
+}
+.notice-call:hover {
+  background: var(--primary-hover);
+  transform: translateY(-2px);
+  color: var(--white);
+}
+
+.notice-footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.notice-footer span {
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+@media (max-width: 540px) {
+  .notice-card { padding: 2.25rem 1.5rem; }
+  .notice-card h1 { font-size: 1.6rem; }
+  .notice-lead { font-size: 1rem; }
+  .notice-call { font-size: 1.15rem; padding: 0.9rem 1.5rem; }
+}

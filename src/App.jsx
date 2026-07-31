@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import TransitionNotice from './components/TransitionNotice'; // TEMPORARY — remove to restore normal site
 import './pages/pages.css';
 
 // Pages
@@ -22,6 +23,8 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <div className="flex-col" style={{ minHeight: '100vh', display: 'flex' }}>
+      {/* TEMPORARY ownership-transition notice — delete this line and its import to restore the site */}
+      <TransitionNotice />
       <ScrollToTop />
       <Header />
       <main style={{ flex: 1 }}>
